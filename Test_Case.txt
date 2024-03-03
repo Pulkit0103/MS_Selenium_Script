@@ -1,0 +1,18 @@
+{
+  "id": "my_test_case",
+  "version": "1.0",
+  "name": "Download PDFs",
+  "url": "https://files.thapar.edu/?dir=NAAC2024/1.3.3/InternshipCertificates",
+  "tests": [
+    {
+      "id": "test_case_1",
+      "name": "Download PDFs",
+      "commands": [
+        {"command": "open", "target": "/?dir=NAAC2024/1.3.3/InternshipCertificates", "value": ""},
+        {"command": "click", "target": "https://files.thapar.edu/NAAC2024/1.3.3/InternshipCertificates/BE%20Mechatronics.pdf", "value": ""},
+        {"command": "click", "target": "link=https://files.thapar.edu/NAAC2024/1.3.3/InternshipCertificates/BE%20BME.pdf", "value": ""},
+        // Add more click commands as needed
+      ]
+    }
+  ]
+}
